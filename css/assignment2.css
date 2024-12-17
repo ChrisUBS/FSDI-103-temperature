@@ -1,0 +1,55 @@
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 20%;
+}
+
+/* Utilities */
+.cold {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}
+
+/* Main */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-temperature {
+    width: 250px;
+    height: 50px;
+    font-size: 1rem;
+    color: white;
+    background-color: #06bf0d;
+    border-radius: 10px;
+}
+
+.btn-temperature:hover {
+    background-color: #0f9d58;
+    cursor: pointer;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(186, 185, 185);
+}
+
+.temperature div {
+    margin: 0 20px;
+}
