@@ -1,4 +1,4 @@
-console.log("function.js");
+// console.log("function.js");
 
 // Creating a function
 // function greet (userName) {
