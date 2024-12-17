@@ -35,11 +35,11 @@ function convertTemperature() {
         // DIV color
         if (calculation <= 59) {
             resultContainer.classList.add("cold");
-            document.body.style.backgroundImage = "url('/img/cold.jpg')";
+            document.body.style.backgroundImage = "url('img/cold.jpg')";
             document.body.style.backgroundSize = "cover";
         } else if (calculation >= 104) {
             resultContainer.classList.add("hot");
-            document.body.style.backgroundImage = "url('/img/hot.jpg')";
+            document.body.style.backgroundImage = "url('img/hot.jpg')";
             document.body.style.backgroundSize = "cover";
         } else {
             resultContainer.classList.add("normal");
@@ -60,11 +60,11 @@ function convertTemperature() {
         // DIV color
         if (calculation <= 15) {
             resultContainer.classList.add("cold");
-            document.body.style.backgroundImage = "url('/img/cold.jpg')";
+            document.body.style.backgroundImage = "url('img/cold.jpg')";
             document.body.style.backgroundSize = "cover";
         } else if (calculation >= 40) {
             resultContainer.classList.add("hot");
-            document.body.style.backgroundImage = "url('/img/hot.jpg')";
+            document.body.style.backgroundImage = "url('img/hot.jpg')";
             document.body.style.backgroundSize = "cover";
         } else {
             resultContainer.classList.add("normal");
