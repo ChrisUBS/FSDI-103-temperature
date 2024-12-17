@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/assingment3.css">
+</head>
+
+<body>
+    <h1>Temperature Converter with Thermometer</h1>
+
+    <div class="main">
+
+        <div class="converter">
+
+            <div class="tittle">
+                <h3>Choose an option</h2>
+            </div>
+
+            <div class="options">
+                <label for="options">Select an option:</label>
+                <select id="options" name="options">
+                    <option value="1">Celsius</option>
+                    <option value="2">Fahrenheit</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <label for="temperatureInput">Enter the temperature:</label>
+                <input type="number" id="temperatureInput" name="temperatureInput">
+            </div>
+
+            <div class="btn-converter">
+                <button onclick="convertTemperature()">Convert</button>
+            </div>
+
+        </div>
+
+        <div class="result-container" id="result-container-id">
+            <p id="result">-- °C</p>
+        </div>
+
+        <div class="thermometer">
+            <div class="bulb"></div>
+            <div class="liquid"></div>
+            <div class="marker"></div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/assingment3.js"></script>
+</body>
+
+</html>
